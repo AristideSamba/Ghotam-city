@@ -8,12 +8,6 @@
     --jet: #302f2fff;
     --color-title: #fafafafa;
 }
-.bgimg{
-    background-image: url(../asset/cover-batman.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 header,
 nav,
@@ -24,6 +18,7 @@ footer{
     background-color: var(--timberwolf);
     padding: 0 1rem;
 }
+
 
 div.picture img{
     display: inline-block;
@@ -68,10 +63,20 @@ nav h2, section h2{
     box-shadow: 0 .4rem 0 var(--silver);
 }
 
+
 #geo{
    margin-top: 1rem;
 }
 
 header h1 img{
     margin-right: 1rem;
+}
+
+.bg-info{
+    transition-duration: .6s;
+}
+
+.bg-info:target{
+    background: rgba(41, 39, 39, 0.632);
+    color: white;
 }
